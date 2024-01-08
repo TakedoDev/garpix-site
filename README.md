@@ -1,7 +1,7 @@
-Эта конечная точка API позволяет вам анализировать изображения, отправляя HTTP POST-запрос на указанный URL. Запрос должен включать тело формы-данных с параметрами 'images' и 'csv_file', оба типа 'file'.
-Запрос
-Изображения тела (файл): Файл изображения, подлежащий анализу.
-csv_file (файл): CSV-файл, содержащий дополнительные данные для анализа.
+This API endpoint allows you to parse images by making an HTTP POST request to the specified URL. The request should include a form-data body with the 'images' and 'csv_file' parameters, both of type 'file'.
+Request Body
+images (file): The image file to be parsed.
+csv_file (file): The CSV file containing additional data for parsing.
 
-Ответ
-После успешного выполнения API возвращает код состояния, равный 200, вместе с ответом в формате JSON, содержащим информацию о грузовом пространстве, сведения о грузе и распакованных товарах.
+Response
+Upon successful execution, the API returns a status code of 200, along with a JSON response containing cargo space information, cargo details, and unpacked items.
